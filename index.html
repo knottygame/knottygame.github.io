@@ -3,19 +3,84 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Knotty</title>
+  <title>Knotty: Daily Line Puzzle</title>
+  <meta name="description" content="Draw one line through every number and fill the grid. A fresh puzzle every day, twelve worlds of twists and an endless time attack.">
+  <meta name="theme-color" content="#f6f1e7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Knotty: Daily Line Puzzle">
+  <meta property="og:description" content="Draw one line through every number and fill the grid. A fresh puzzle every day.">
+  <meta property="og:image" content="https://knottygame.github.io/assets/share.png">
+  <meta property="og:url" content="https://knottygame.github.io/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<main>
-  <header><span class="mark"></span><a href="./">Knotty</a></header>
-  <h1>Draw one line through every number and every cell.</h1>
-  <p class="updated">A daily path puzzle by Acloe Technology Ventures.</p>
-  <ul>
-    <li><a href="privacy.html">Privacy policy</a></li>
-    <li><a href="delete-account.html">Delete your account</a></li>
-  </ul>
-  <footer>Questions? Write to the developer email on Knotty's Google Play or App Store page.</footer>
-</main>
+<div class="wrap">
+  <header class="bar">
+    <a class="brand" href="./">
+      <picture>
+        <source srcset="assets/icon-dark.png" media="(prefers-color-scheme: dark)">
+        <img src="assets/icon.png" alt="" width="40" height="40">
+      </picture>
+      <span>Knotty</span>
+    </a>
+    <nav>
+      <a href="privacy.html">Privacy</a>
+      <a href="delete-account.html">Delete account</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <h1>One line through every number.</h1>
+        <p class="lede">Draw a single path from 1 to the end, pass every number in
+        order and fill every cell. A fresh puzzle every day.</p>
+        <span class="soon">Coming soon to Google Play and the App Store</span>
+      </div>
+      <picture>
+        <source srcset="assets/icon-dark.png" media="(prefers-color-scheme: dark)">
+        <img class="icon" src="assets/icon.png" alt="Knotty app icon" width="168" height="168">
+      </picture>
+    </section>
+
+    <div class="shots" tabindex="0" aria-label="Screenshots">
+      <img src="assets/shots/01-play.jpg" alt="One line. Every number: a puzzle half solved." width="540" height="960" loading="lazy">
+      <img src="assets/shots/02-special-tiles.jpg" alt="Portals, arrows, ice and more: a level with special tiles." width="540" height="960" loading="lazy">
+      <img src="assets/shots/03-daily.jpg" alt="A fresh puzzle every day: the home screen with a 12-day streak." width="540" height="960" loading="lazy">
+      <img src="assets/shots/04-endless.jpg" alt="Race the clock in Endless: a timed run with a combo." width="540" height="960" loading="lazy">
+      <img src="assets/shots/05-midnight.jpg" alt="Easy on the eyes, day or night: the Midnight theme." width="540" height="960" loading="lazy">
+      <img src="assets/shots/06-collection.jpg" alt="Crack a fortune cookie: collected fortunes and path colours." width="540" height="960" loading="lazy">
+    </div>
+
+    <section class="features">
+      <div class="feature">
+        <h3>A daily knot</h3>
+        <p>Everyone gets the same puzzle each day. Solve it to grow your streak.</p>
+      </div>
+      <div class="feature">
+        <h3>Twelve worlds</h3>
+        <p>From gentle 5×5 boards to 8×8 snarls with portals, ice, keys and fog.</p>
+      </div>
+      <div class="feature">
+        <h3>Endless time attack</h3>
+        <p>Puzzles keep coming. Every solve buys time; clean solves build a combo.</p>
+      </div>
+      <div class="feature">
+        <h3>Paper and Midnight</h3>
+        <p>A light and a dark theme, plus path colours to collect from fortune cookies.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Acloe Technology Ventures ·
+    <a href="privacy.html">Privacy policy</a> ·
+    <a href="delete-account.html">Delete your account</a>
+  </footer>
+</div>
 </body>
 </html>
